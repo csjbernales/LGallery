@@ -1,0 +1,5 @@
+
+Name
+----
+NVIDIA GeForce RTX 4070 Laptop GPU
+

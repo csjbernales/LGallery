@@ -39,13 +39,13 @@
             "output": 16000
           },
           "options": {
-            "temperature": 0.6,
-            "topP": 0.95,
+            "temperature": 0.8,
+            "topP": 0.85,
             "stopSequences": [],
             "extraBody": {
-              "top_k": 20,
+              "top_k": 40,
               "min_p": 0.05,
-              "repeat_penalty": 1.05
+              "repeat_penalty": 1.1
             }
           }
         },

@@ -24,9 +24,7 @@ import type { Plugin } from "@opencode-ai/plugin"
 
 const REMINDER = [
   "<system-reminder>",
-  "Reference libraries are available as skills — load one only when relevant:",
-  "claude-code-system-prompts, claude-code-system-reminders,",
-  "claude-code-tool-reference, claude-code-internals-data.",
+  "", //todo: can write anything here
   "</system-reminder>",
 ].join("\n")
 

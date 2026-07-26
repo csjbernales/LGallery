@@ -1,0 +1,1 @@
+lm-eval run --model local-chat-completions --model_args model=qwen3.5-4b-claude-4.6-opus-reasoning-distilled-v2,base_url=http://192.168.0.246:1234/v1/chat/completions,max_tokens=8192,num_concurrent=3 --tasks gsm8k --apply_chat_template --device cuda

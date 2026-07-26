@@ -23,9 +23,7 @@ import type { Plugin } from "@opencode-ai/plugin"
  */
 
 const REMINDER = [
-  "<system-reminder>",
-  "", //todo: can write anything here
-  "</system-reminder>",
+  "" //todo: can write anything here
 ].join("\n")
 
 export const SessionReminder: Plugin = async () => {
